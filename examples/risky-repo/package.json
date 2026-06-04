@@ -1,0 +1,10 @@
+{
+  "name": "risky-agent-demo",
+  "private": true,
+  "scripts": {
+    "test": "node test.js",
+    "prod:reset": "prisma migrate reset --force",
+    "deploy": "terraform apply -auto-approve",
+    "nuke": "rm -rf /tmp/risky-agent-demo"
+  }
+}
