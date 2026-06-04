@@ -1,0 +1,47 @@
+{
+  "name": "agentblast",
+  "version": "0.1.0",
+  "description": "Local-first blast-radius scanner for AI coding agents.",
+  "type": "module",
+  "bin": {
+    "agentblast": "./bin/agentblast.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "docs",
+    "examples",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "scan:self": "node ./bin/agentblast.js scan . --format terminal",
+    "demo": "node ./bin/agentblast.js demo"
+  },
+  "keywords": [
+    "ai-agent",
+    "coding-agent",
+    "agent-safety",
+    "agent-guardrails",
+    "claude-code",
+    "codex",
+    "cursor",
+    "mcp",
+    "sarif",
+    "github-actions"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/823675737937532791/agentblast.git"
+  },
+  "bugs": {
+    "url": "https://github.com/823675737937532791/agentblast/issues"
+  },
+  "homepage": "https://github.com/823675737937532791/agentblast#readme"
+}
