@@ -1,0 +1,6 @@
+node_modules/
+coverage/
+agentblast.sarif
+agentblast-report.html
+agentblast-report.md
+.DS_Store
